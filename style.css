@@ -33,6 +33,22 @@
   background-color: #af4c4c;
 }
 
+.calculator input[value="/"] {
+  background-color: #7b7c8c;
+}
+
+.calculator input[value="*"] {
+  background-color: #7b7c8c;
+}
+
+.calculator input[value="-"] {
+  background-color: #7b7c8c;
+}
+
+.calculator input[value="+"] {
+  background-color: #7b7c8c;
+}
+
 /* Media query for screens greater than 699px wide */
 @media screen and (max-width: 700px) {
   .calculator {
